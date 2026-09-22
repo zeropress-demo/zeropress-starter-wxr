@@ -1,0 +1,17 @@
+{
+  "$schema": "https://schemas.zeropress.dev/wxr-import-base/v0.7/schema.json",
+  "version": "0.7",
+  "site": {
+    "url": "",
+    "robots": {
+      "allow_indexing": false
+    },
+    "search": {
+      "enabled": false
+    },
+    "footer": {
+      "attribution": true
+    }
+  },
+  "widgets": {}
+}

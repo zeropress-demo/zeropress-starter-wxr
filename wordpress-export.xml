@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+  xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:wp="http://wordpress.org/export/1.2/">
+  <channel>
+    <title>Try ZeroPress</title>
+    <link>https://wordpress.example/</link>
+    <description>Your WordPress writing, in a new setting.</description>
+    <pubDate>Sun, 20 Sep 2026 09:00:00 +0000</pubDate>
+    <language>en-US</language>
+    <wp:wxr_version>1.2</wp:wxr_version>
+    <wp:base_site_url>https://wordpress.example/</wp:base_site_url>
+    <wp:base_blog_url>https://wordpress.example/</wp:base_blog_url>
+    <wp:author>
+      <wp:author_id>1</wp:author_id>
+      <wp:author_login><![CDATA[editor]]></wp:author_login>
+      <wp:author_display_name><![CDATA[Sample Editor]]></wp:author_display_name>
+    </wp:author>
+    <wp:category>
+      <wp:term_id>1</wp:term_id>
+      <wp:category_nicename><![CDATA[getting-started]]></wp:category_nicename>
+      <wp:cat_name><![CDATA[Getting started]]></wp:cat_name>
+    </wp:category>
+    <wp:tag>
+      <wp:term_id>2</wp:term_id>
+      <wp:tag_slug><![CDATA[wordpress]]></wp:tag_slug>
+      <wp:tag_name><![CDATA[WordPress]]></wp:tag_name>
+    </wp:tag>
+    <wp:term>
+      <wp:term_id>3</wp:term_id>
+      <wp:term_taxonomy><![CDATA[nav_menu]]></wp:term_taxonomy>
+      <wp:term_slug><![CDATA[primary]]></wp:term_slug>
+      <wp:term_name><![CDATA[Primary]]></wp:term_name>
+    </wp:term>
+    <item>
+      <title><![CDATA[Your WordPress content, in ZeroPress]]></title>
+      <link>https://wordpress.example/try-your-export/</link>
+      <dc:creator><![CDATA[editor]]></dc:creator>
+      <content:encoded><![CDATA[<p>This sample site was built from a WordPress WXR export using the Minimal theme.</p><h2>Try it with your own posts</h2><ol><li>In WordPress, open <strong>Tools → Export</strong> and choose <strong>All content</strong>.</li><li>Replace <code>wordpress-export.xml</code> in your repository with the downloaded file.</li><li>Commit and push. Cloudflare builds your new site automatically.</li></ol><p>Your published posts and pages will replace these examples on the next build.</p>]]></content:encoded>
+      <excerpt:encoded><![CDATA[Replace one XML file to see your WordPress posts in ZeroPress.]]></excerpt:encoded>
+      <wp:post_id>101</wp:post_id>
+      <wp:post_date><![CDATA[2026-09-20 09:00:00]]></wp:post_date>
+      <wp:post_date_gmt><![CDATA[2026-09-20 09:00:00]]></wp:post_date_gmt>
+      <wp:post_modified_gmt><![CDATA[2026-09-20 09:00:00]]></wp:post_modified_gmt>
+      <wp:post_name><![CDATA[try-your-export]]></wp:post_name>
+      <wp:post_type><![CDATA[post]]></wp:post_type>
+      <wp:status><![CDATA[publish]]></wp:status>
+      <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+      <category domain="category" nicename="getting-started"><![CDATA[Getting started]]></category>
+      <category domain="post_tag" nicename="wordpress"><![CDATA[WordPress]]></category>
+    </item>
+    <item>
+      <title><![CDATA[Your images and links stay where they are]]></title>
+      <link>https://wordpress.example/keep-your-wordpress/</link>
+      <dc:creator><![CDATA[editor]]></dc:creator>
+      <content:encoded><![CDATA[<p>This trial keeps using your original WordPress site. Images load from their existing addresses, and links in your writing keep pointing to the same pages.</p><h2>One conversation</h2><p>For posts with comments open, the comment area connects to WordPress. New comments are saved there and follow your existing moderation rules.</p><blockquote><p>Keep WordPress online while you try ZeroPress.</p></blockquote><p>The included sample posts have comments closed. Your own export determines which posts accept comments.</p>]]></content:encoded>
+      <excerpt:encoded><![CDATA[Keep your media and conversations on the original WordPress site.]]></excerpt:encoded>
+      <wp:post_id>102</wp:post_id>
+      <wp:post_date><![CDATA[2026-09-19 09:00:00]]></wp:post_date>
+      <wp:post_date_gmt><![CDATA[2026-09-19 09:00:00]]></wp:post_date_gmt>
+      <wp:post_modified_gmt><![CDATA[2026-09-19 09:00:00]]></wp:post_modified_gmt>
+      <wp:post_name><![CDATA[keep-your-wordpress]]></wp:post_name>
+      <wp:post_type><![CDATA[post]]></wp:post_type>
+      <wp:status><![CDATA[publish]]></wp:status>
+      <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+      <category domain="category" nicename="getting-started"><![CDATA[Getting started]]></category>
+      <category domain="post_tag" nicename="wordpress"><![CDATA[WordPress]]></category>
+    </item>
+    <item>
+      <title><![CDATA[Bring the next export]]></title>
+      <link>https://wordpress.example/refresh-your-preview/</link>
+      <dc:creator><![CDATA[editor]]></dc:creator>
+      <content:encoded><![CDATA[<p>Made changes in WordPress? Export again, replace <code>wordpress-export.xml</code>, and push. There is no second content file to maintain.</p><h2>When you are ready to move</h2><p>For a full move away from WordPress, import your WXR into ZeroPress Studio and publish to a new Studio Starter repository.</p><p>This repository is for trying ZeroPress with the WordPress resources you already have.</p>]]></content:encoded>
+      <excerpt:encoded><![CDATA[Replace the export whenever you want to refresh this site.]]></excerpt:encoded>
+      <wp:post_id>103</wp:post_id>
+      <wp:post_date><![CDATA[2026-09-18 09:00:00]]></wp:post_date>
+      <wp:post_date_gmt><![CDATA[2026-09-18 09:00:00]]></wp:post_date_gmt>
+      <wp:post_modified_gmt><![CDATA[2026-09-18 09:00:00]]></wp:post_modified_gmt>
+      <wp:post_name><![CDATA[refresh-your-preview]]></wp:post_name>
+      <wp:post_type><![CDATA[post]]></wp:post_type>
+      <wp:status><![CDATA[publish]]></wp:status>
+      <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+      <category domain="category" nicename="getting-started"><![CDATA[Getting started]]></category>
+      <category domain="post_tag" nicename="wordpress"><![CDATA[WordPress]]></category>
+    </item>
+    <item>
+      <title><![CDATA[About this preview]]></title>
+      <link>https://wordpress.example/about/</link>
+      <content:encoded><![CDATA[<p>This is a ZeroPress site built from a WordPress export. Replace the sample XML with your own export to see your writing here.</p><p>Your original media URLs and WordPress comment service stay in use throughout the trial.</p>]]></content:encoded>
+      <wp:post_id>201</wp:post_id>
+      <wp:post_date_gmt><![CDATA[2026-09-18 09:00:00]]></wp:post_date_gmt>
+      <wp:post_modified_gmt><![CDATA[2026-09-18 09:00:00]]></wp:post_modified_gmt>
+      <wp:post_name><![CDATA[about]]></wp:post_name>
+      <wp:post_type><![CDATA[page]]></wp:post_type>
+      <wp:status><![CDATA[publish]]></wp:status>
+      <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+    </item>
+    <item>
+      <title><![CDATA[About]]></title>
+      <wp:post_id>301</wp:post_id>
+      <wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+      <wp:status><![CDATA[publish]]></wp:status>
+      <wp:menu_order>1</wp:menu_order>
+      <category domain="nav_menu" nicename="primary"><![CDATA[Primary]]></category>
+      <wp:postmeta><wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key><wp:meta_value><![CDATA[post_type]]></wp:meta_value></wp:postmeta>
+      <wp:postmeta><wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key><wp:meta_value><![CDATA[page]]></wp:meta_value></wp:postmeta>
+      <wp:postmeta><wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key><wp:meta_value><![CDATA[201]]></wp:meta_value></wp:postmeta>
+    </item>
+  </channel>
+</rss>

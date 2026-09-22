@@ -1,0 +1,30 @@
+{
+  "name": "zeropress-starter-wxr",
+  "version": "0.7.0",
+  "description": "Try ZeroPress with a WordPress WXR export and your existing WordPress resources",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=22.22.0"
+  },
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "build": "npm run import && zeropress-build ./theme --data ./.zeropress-wxr/preview-data.json --public-dir ./public --out ./dist --empty-out-dir",
+    "preview": "npm run build && wrangler dev --local",
+    "deploy": "wrangler deploy",
+    "deploy:dry-run": "npm run build && wrangler deploy --dry-run",
+    "test": "node --test test/*.test.mjs",
+    "format:wrangler": "node scripts/format-wrangler.mjs",
+    "format:wrangler:check": "node scripts/format-wrangler.mjs --check",
+    "import": "zeropress-wxr-import --input ./wordpress-export.xml --base ./wxr-import-base.json --output ./.zeropress-wxr/preview-data.json"
+  },
+  "dependencies": {
+    "@zeropress/build": "0.7.3",
+    "@zeropress/wxr-import": "0.7.1"
+  },
+  "devDependencies": {
+    "jsonc-parser": "3.3.1",
+    "wrangler": "4.133.0"
+  }
+}
